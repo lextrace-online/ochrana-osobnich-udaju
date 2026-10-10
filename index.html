@@ -1,175 +1,261 @@
 <!DOCTYPE html>
 <html lang="cs">
 <head>
-    <meta charset="UTF-8">
-    <title>Prohlášení o zásadách ochrany osobních údajů – Lextrace LLC</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Lextrace – Ochrana osobních údajů</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #141414; color: #e8e8e8; font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-size: 1rem; line-height: 1.7; }
+    nav.top-nav { position: sticky; top: 0; z-index: 100; background: #141414; border-bottom: 1px solid #252525; }
+    .nav-inner { max-width: 820px; margin: 0 auto; padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; height: 56px; }
+    .nav-logo { font-size: 1rem; font-weight: 600; color: #e8e8e8; text-decoration: none; letter-spacing: -0.01em; }
+    .nav-links { display: flex; gap: 1.5rem; list-style: none; }
+    .nav-links a { color: #888; text-decoration: none; font-size: 0.875rem; transition: color 0.15s; }
+    .nav-links a:hover { color: #e8e8e8; }
+    main { max-width: 820px; margin: 0 auto; padding: 4rem 2rem; }
+    .page-title { font-size: 2rem; font-weight: 700; letter-spacing: -0.025em; color: #e8e8e8; margin-bottom: 0.35rem; }
+    .page-meta { font-size: 0.8rem; color: #555; margin-bottom: 3rem; }
+    .intro-box { background: #1b1b1b; border: 1px solid #252525; border-radius: 8px; padding: 1.4rem 1.8rem; margin-bottom: 3rem; color: #a0a0a0; font-size: 0.9375rem; }
+    .intro-box a { color: #5b9cf6; text-decoration: none; }
+    .intro-box a:hover { text-decoration: underline; }
+    .toc { background: #1b1b1b; border: 1px solid #252525; border-radius: 8px; padding: 1.4rem 1.8rem; margin-bottom: 3rem; }
+    .toc-label { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #555; margin-bottom: 0.75rem; }
+    .toc ol { padding-left: 1.25rem; }
+    .toc li { margin: 0.3rem 0; }
+    .toc a { color: #5b9cf6; text-decoration: none; font-size: 0.875rem; }
+    .toc a:hover { text-decoration: underline; }
+    section h2 { font-size: 1.1rem; font-weight: 600; color: #e8e8e8; margin-bottom: 0.9rem; scroll-margin-top: 76px; }
+    section p { color: #a0a0a0; font-size: 0.9375rem; margin-bottom: 0.8rem; }
+    section p:last-child { margin-bottom: 0; }
+    section ul, section ol { color: #a0a0a0; font-size: 0.9375rem; padding-left: 1.4rem; margin-bottom: 0.8rem; }
+    section li { margin: 0.25rem 0; }
+    section a { color: #5b9cf6; text-decoration: none; }
+    section a:hover { text-decoration: underline; }
+    .contact-card { background: #1b1b1b; border: 1px solid #252525; border-radius: 8px; padding: 1.2rem 1.6rem; margin-top: 1rem; font-size: 0.875rem; color: #a0a0a0; }
+    .contact-card strong { color: #e8e8e8; }
+    .contact-card p { margin-bottom: 0.4rem; }
+    .contact-card p:last-child { margin-bottom: 0; }
+    .contact-card a { color: #5b9cf6; text-decoration: none; }
+    .contact-card a:hover { text-decoration: underline; }
+    .mt { margin-top: 1rem; }
+    hr { border: none; border-top: 1px solid #252525; margin: 2.5rem 0; }
+    footer { border-top: 1px solid #252525; }
+    .footer-inner { max-width: 820px; margin: 0 auto; padding: 1.5rem 2rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.3rem 0; font-size: 0.8rem; color: #444; }
+    .footer-inner a { color: #555; text-decoration: none; transition: color 0.15s; }
+    .footer-inner a:hover { color: #999; }
+    .footer-sep { color: #333; margin: 0 0.6rem; }
+  </style>
 </head>
 <body>
+
+<nav class="top-nav" aria-label="Hlavní navigace">
+  <div class="nav-inner">
+    <a class="nav-logo" href="#">Lextrace LLC</a>
+    <ul class="nav-links">
+      <li><a href="#" target="_blank" rel="noopener noreferrer">Rozcestník</a></li>
+      <li><a href="#" target="_blank" rel="noopener noreferrer">Kontakt</a></li>
+    </ul>
+  </div>
+</nav>
+
 <main>
-    <h1>Prohlášení společnosti Lextrace o zásadách ochrany osobních údajů</h1>
+  <h1 class="page-title">Ochrana osobních údajů</h1>
+  <p class="page-meta">Prohlášení o zásadách ochrany osobních údajů &nbsp;&middot;&nbsp; Naposledy aktualizováno: 10. října 2026</p>
 
-    <p>
-        Toto prohlášení o zásadách ochrany osobních údajů vysvětluje, jaké osobní údaje společnost
-        <strong>Lextrace LLC</strong> zpracovává, jak je zpracováváme a k jakým účelům.
-        Když v tomto dokumentu odkazujeme na <em>produkty společnosti Lextrace</em>, máme tím na mysli naše služby,
-        zboží, díla, texty, grafiku, weby, aplikace, software, servery a zařízení.
-    </p>
+  <div class="intro-box">
+    <p>Toto prohlášení vysvětluje, jaké osobní údaje společnost <strong>Lextrace LLC</strong> zpracovává, jak je zpracováváme a k jakým účelům. Když v tomto dokumentu odkazujeme na produkty společnosti Lextrace, máme tím na mysli naše služby, zboží, díla, texty, grafiku, weby, aplikace, software, servery a zařízení.</p>
+  </div>
 
-    <p>
-        Níže naleznete informace o tom, jak používáme diagnostická data, jak aktualizujeme toto prohlášení
-        a jak nás můžete kontaktovat.
-    </p>
+  <nav class="toc" aria-label="Obsah stránky">
+    <p class="toc-label">Obsah</p>
+    <ol>
+      <li><a href="#kontakt">Kontaktujte nás</a></li>
+      <li><a href="#identita">Identita správce</a></li>
+      <li><a href="#ucely">Účely zpracování</a></li>
+      <li><a href="#kategorie">Kategorie osobních údajů</a></li>
+      <li><a href="#pravni-zaklad">Právní základ zpracování</a></li>
+      <li><a href="#prijemci">Příjemci osobních údajů</a></li>
+      <li><a href="#doba-uchovani">Doba uchování osobních údajů</a></li>
+      <li><a href="#bezpecnost">Bezpečnostní opatření</a></li>
+      <li><a href="#mezinarodni">Mezinárodní přenos osobních údajů</a></li>
+      <li><a href="#prava">Práva subjektů údajů</a></li>
+      <li><a href="#automatizace">Automatizované rozhodování</a></li>
+      <li><a href="#ai">Umělá inteligence a Copilot</a></li>
+      <li><a href="#aktualizace">Aktualizace prohlášení</a></li>
+    </ol>
+  </nav>
 
-    <hr>
+  <section id="kontakt">
+    <h2>1. Kontaktujte nás</h2>
+    <p>Máte-li jakékoli obavy, stížnosti nebo dotazy týkající se ochrany osobních údajů, můžete se obrátit na tým Lextrace pro ochranu osobních údajů nebo na zástupce správce pro EU. Kontakt naleznete na stránce níže.</p>
+  </section>
 
-    <h2>Kontaktujte nás</h2>
-    <p>
-        Máte-li jakékoli obavy, stížnosti nebo dotazy týkající se ochrany osobních údajů, můžete se obrátit
-        na tým Lextrace pro ochranu osobních údajů nebo na zástupce správce pro EU.
-    </p>
-    <p>
-        Kontakt naleznete na stránce níže.
-    </p>
+  <hr>
 
-    <h2>Identita správce</h2>
+  <section id="identita">
+    <h2>2. Identita správce</h2>
     <p>Správcem osobních údajů je:</p>
-    <p>
-        <strong>Lextrace LLC</strong><br>
-        30 N Gould St Ste, Sheridan, Wyoming, USA<br>
-        Kontakt na správce: <strong>info@lextrace.online ; +420735368271</strong>
-    </p>
-    <p>
-        Pro vyšší komfort zákazníků je dále jako zástupce správce pro EU ustanoven subjekt <strong>Lextrace.eu</strong>.<br>
-        Kontakt na zástupce správce pro EU: <strong>info@lextrace.eu ; +420735368271</strong>.
-    </p>
-    <p>
-        V případech, kdy naše služby, inzerce či webové stránky odkazují na třetí strany, může docházet
-        ke zpracování osobních údajů také těmito subjekty. V takových případech se prosím seznamte
-        s jejich vlastními zásadami ochrany osobních údajů.
-    </p>
+    <div class="contact-card">
+      <p><strong>Lextrace LLC</strong></p>
+      <p>30 N Gould St Ste, Sheridan, Wyoming, USA</p>
+      <p>E-mail: <a href="mailto:info@lextrace.online">info@lextrace.online</a> &nbsp;&middot;&nbsp; Tel.: <a href="tel:+420735368271">+420&nbsp;735&nbsp;368&nbsp;271</a></p>
+    </div>
+    <p class="mt">Pro vyšší komfort zákazníků je dále jako zástupce správce pro EU ustanoven subjekt <strong>Lextrace.eu</strong>.</p>
+    <div class="contact-card">
+      <p><strong>Zástupce správce pro EU &ndash; Lextrace.eu</strong></p>
+      <p>E-mail: <a href="mailto:info@lextrace.eu">info@lextrace.eu</a> &nbsp;&middot;&nbsp; Tel.: <a href="tel:+420735368271">+420&nbsp;735&nbsp;368&nbsp;271</a></p>
+    </div>
+    <p class="mt">V případech, kdy naše služby, inzerce či webové stránky odkazují na třetí strany, může docházet ke zpracování osobních údajů také těmito subjekty. V takových případech se prosím seznamte s jejich vlastními zásadami ochrany osobních údajů.</p>
+  </section>
 
-    <h2>Účely zpracování</h2>
-    <p>Osobní údaje zpracováváme za účelem:</p>
+  <hr>
+
+  <section id="ucely">
+
+  <hr>
+
+  <section id="kategorie">
+    <h2>4. Kategorie osobních údajů</h2>
+    <p>Shromažďované osobní údaje se liší podle konkrétní služby a kontextu interakce. Získáváme:</p>
     <ul>
-        <li>poskytování našich služeb a produktů,</li>
-        <li>zpřístupňování prémiového obsahu,</li>
-        <li>zpracování objednávek a komunikace se zákazníkem,</li>
-        <li>plnění zákonných povinností (např. účetní a daňové předpisy),</li>
-        <li>reklamních a marketingových účelů,</li>
-        <li>bezpečnostních účelů (ochrana systémů, prevence zneužití),</li>
-        <li>zlepšování našich služeb, analýzy a výzkumu,</li>
-        <li>vývoje nových produktů a funkcí.</li>
+      <li>údaje, které nám poskytujete přímo (registrace, objednávky, komunikace),</li>
+      <li>údaje získávané při používání našich služeb, systémů a produktů,</li>
+      <li>technická a diagnostická data,</li>
+      <li>údaje od přidružených společností, partnerů a třetích stran, pokud je to nezbytné pro poskytování služeb.</li>
     </ul>
+  </section>
 
-    <h2>Kategorie osobních údajů</h2>
-    <p>
-        Shromažďované osobní údaje se liší podle konkrétní služby a kontextu interakce. Získáváme:
-    </p>
-    <ul>
-        <li>údaje, které nám poskytujete přímo (registrace, objednávky, komunikace),</li>
-        <li>údaje získané při používání našich služeb, systémů a produktů,</li>
-        <li>technická a diagnostická data,</li>
-        <li>údaje od přidružených společností, partnerů a třetích stran, pokud je to nezbytné pro poskytování služeb.</li>
-    </ul>
+  <hr>
 
-    <h2>Právní základ zpracování</h2>
+  <section id="pravni-zaklad">
+    <h2>5. Právní základ zpracování</h2>
     <p>Osobní údaje mohou být zpracovávány na základě:</p>
     <ul>
-        <li><strong>souhlasu</strong> zákazníka,</li>
-        <li><strong>plnění smlouvy</strong> nebo smluvních podmínek,</li>
-        <li><strong>plnění zákonných povinností</strong>,</li>
-        <li><strong>oprávněného zájmu</strong> společnosti Lextrace.</li>
+      <li><strong>souhlasu</strong> zákazníka,</li>
+      <li><strong>plnění smlouvy</strong> nebo smluvních podmínek,</li>
+      <li><strong>plnění zákonných povinností</strong>,</li>
+      <li><strong>oprávněného zájmu</strong> společnosti Lextrace.</li>
     </ul>
-    <p>
-        Používáním našich služeb, produktů a systémů dochází k automatickému potvrzení příslušných podmínek,
-        a to i v případě interakce prostřednictvím automatizace či umělé inteligence.
-    </p>
-    <p>
-        Zákazník je povinen se předem seznámit se všemi obecnými podmínkami a prohlášeními společnosti Lextrace
-        na adrese <strong>https://lextrace-online.github.io/podminky_uzivani/</strong> a <strong>https://lextrace-online.github.io/souhlas_se_zpracovanim/</strong>, stejně jako s ostatními právně závaznými předpisy a nařízeními.
-    </p>
+    <p>Používáním našich služeb, produktů a systémů dochází k automatickému potvrzení příslušných podmínek, a to i v případě interakce prostřednictvím automatizace či umělé inteligence.</p>
+    <p>Zákazník je povinen se předem seznámit se všemi obecnými podmínkami a prohlášeními společnosti Lextrace na adresách <a href="https://lextrace-online.github.io/podminky_uzivani/" target="_blank" rel="noopener noreferrer">lextrace-online.github.io/podminky_uzivani</a> a <a href="https://lextrace-online.github.io/souhlas_se_zpracovanim/" target="_blank" rel="noopener noreferrer">lextrace-online.github.io/souhlas_se_zpracovanim</a>.</p>
+  </section>
 
-    <h2>Příjemci osobních údajů</h2>
+  <hr>
+
+  <section id="prijemci">
+    <h2>6. Příjemci osobních údajů</h2>
     <p>Osobní údaje mohou být zpřístupněny:</p>
     <ul>
-        <li>poskytovatelům IT služeb a cloudové infrastruktury,</li>
-        <li>účetním a daňovým poradcům,</li>
-        <li>právním službám,</li>
-        <li>přidruženým a dceřiným společnostem,</li>
-        <li>partnerům, kteří se podílejí na poskytování služeb,</li>
-        <li>orgánům veřejné moci, pokud to vyžaduje zákon.</li>
+      <li>poskytovatelům IT služeb a cloudové infrastruktury,</li>
+      <li>účetním a daňovým poradcům,</li>
+      <li>právním službám,</li>
+      <li>přidruženým a dceřiným společnostem,</li>
+      <li>partnerům, kteří se podílejí na poskytování služeb,</li>
+      <li>orgánům veřejné moci, pokud to vyžaduje zákon.</li>
     </ul>
+  </section>
 
-    <h2>Doba uchování osobních údajů</h2>
+  <hr>
+
+  <section id="doba-uchovani">
+    <h2>7. Doba uchování osobních údajů</h2>
     <p>Osobní údaje uchováváme:</p>
     <ul>
-        <li>po dobu trvání smluvního vztahu,</li>
-        <li>po dobu nezbytnou pro splnění zákonných povinností,</li>
-        <li>po dobu nezbytnou pro účely analýzy, bezpečnosti a zlepšování služeb,</li>
-        <li>nebo po dobu stanovenou právními předpisy.</li>
+      <li>po dobu trvání smluvního vztahu,</li>
+      <li>po dobu nezbytnou pro splnění zákonných povinností,</li>
+      <li>po dobu nezbytnou pro účely analýzy, bezpečnosti a zlepšování služeb,</li>
+      <li>nebo po dobu stanovenou právními předpisy.</li>
     </ul>
-    <p>
-        Po uplynutí této doby jsou údaje bezpečně vymazány nebo anonymizovány.
-    </p>
+    <p>Po uplynutí této doby jsou údaje bezpečně vymazány nebo anonymizovány.</p>
+  </section>
 
-    <h2>Bezpečnostní opatření</h2>
-    <p>
-        Lextrace používá technická a organizační opatření k ochraně osobních údajů, včetně:
-    </p>
+  <hr>
+
+  <section id="bezpecnost">
+    <h2>8. Bezpečnostní opatření</h2>
+    <p>Lextrace používá technická a organizační opatření k ochraně osobních údajů, včetně:</p>
     <ul>
-        <li>šifrování dat,</li>
-        <li>přístupových politik a řízení oprávnění,</li>
-        <li>auditních logů,</li>
-        <li>zabezpečených serverů,</li>
-        <li>pravidelných bezpečnostních kontrol.</li>
+      <li>šifrování dat,</li>
+      <li>přístupových politik a řízení oprávnění,</li>
+      <li>auditních logů,</li>
+      <li>zabezpečených serverů,</li>
+      <li>pravidelných bezpečnostních kontrol.</li>
     </ul>
+  </section>
 
-    <h2>Mezinárodní přenos osobních údajů</h2>
-    <p>
-        Lextrace může ukládat a zpracovávat osobní údaje ve vašem regionu, ve Spojených státech
-        nebo v jiných jurisdikcích, kde Lextrace nebo její poskytovatelé služeb působí.
-    </p>
-    <p>
-        Uživatel tímto uděluje výslovný souhlas s tím, že jeho osobní údaje mohou být v nezbytném rozsahu
-        předávány také do Spojených států amerických, které nejsou zemí s rozhodnutím o odpovídající ochraně
-        podle čl. 45 GDPR. Předávání probíhá na základě výjimky podle čl. 49 odst. 1 písm. a) GDPR —
-        tedy na základě vašeho výslovného souhlasu.
-    </p>
+  <hr>
 
-    <h2>Práva subjektů údajů</h2>
+  <section id="mezinarodni">
+    <h2>9. Mezinárodní přenos osobních údajů</h2>
+    <p>Lextrace může ukládat a zpracovávat osobní údaje ve vašem regionu, ve Spojených státech nebo v jiných jurisdikcích, kde Lextrace nebo její poskytovatelé služeb působí.</p>
+    <p>Uživatel tímto uděluje výslovný souhlas s tím, že jeho osobní údaje mohou být v nezbytném rozsahu předávány také do Spojených států amerických. Předávání probíhá na základě výjimky podle čl. 49 odst. 1 písm. a) GDPR &mdash; tedy na základě vašeho výslovného souhlasu.</p>
+  </section>
+
+  <hr>
+
+  <section id="prava">
+    <h2>10. Práva subjektů údajů</h2>
     <p>Subjekty údajů mají právo:</p>
     <ul>
-        <li>na přístup ke svým osobním údajům,</li>
-        <li>na opravu nepřesných údajů,</li>
-        <li>na výmaz osobních údajů,</li>
-        <li>na omezení zpracování,</li>
-        <li>na přenositelnost údajů,</li>
-        <li>vznést námitku proti zpracování,</li>
-        <li>podat stížnost u dozorového úřadu.</li>
+      <li>na přístup ke svým osobním údajům,</li>
+      <li>na opravu nepřesných údajů,</li>
+      <li>na výmaz osobních údajů,</li>
+      <li>na omezení zpracování,</li>
+      <li>na přenositelnost údajů,</li>
+      <li>vznést námitku proti zpracování,</li>
+      <li>podat stížnost u dozorového úřadu.</li>
     </ul>
+  </section>
 
-    <h2>Automatizované rozhodování</h2>
-    <p>
-        Lextrace neprovádí automatizované rozhodování s právními účinky.
-        Využití AI technologií slouží pouze k podpoře funkcí, nikoli k rozhodování o právech či povinnostech uživatelů.
-    </p>
+  <hr>
 
-    <h2>Umělá inteligence a Copilot</h2>
-    <p>
-        Lextrace využívá umělou inteligenci (AI) v mnoha produktech a službách, včetně funkcí generativní AI.
-        „Copilot“ je sada služeb a řešení využívajících generativní AI k vytváření výstupů.
-    </p>
-    <p>
-        Používání AI společností Microsoft podléhá zásadám odpovědné AI a Normě odpovědné AI společnosti Microsoft.
-        Shromažďování a používání osobních údajů při vývoji a nasazování funkcí AI je v souladu s těmito zásadami.
-        Další informace naleznete zde: <strong>https://www.microsoft.com/cs-cz/ai/responsible-ai</strong>.
-    </p>
+  <section id="automatizace">
+    <h2>11. Automatizované rozhodování</h2>
+    <p>Lextrace neprovádí automatizované rozhodování s právními účinky. Využití AI technologií slouží pouze k podpoře funkcí, nikoli k rozhodování o právech či povinnostech uživatelů.</p>
+  </section>
 
-    <h2>Aktualizace prohlášení</h2>
-    <p>
-        Toto prohlášení může být průběžně aktualizováno. Datum poslední aktualizace bude vždy uvedeno na této stránce.
-    </p>
+  <hr>
+
+  <section id="ai">
+    <h2>12. Umělá inteligence a Copilot</h2>
+    <p>Lextrace využívá umělou inteligenci (AI) v mnoha produktech a službách, včetně funkcí generativní AI. &bdquo;Copilot&ldquo; je sada služeb a řešení využívajících generativní AI k vytváření výstupů.</p>
+    <p>Shromažďování a používání osobních údajů při vývoji a nasazování funkcí AI je v souladu se zásadami odpovědné AI. Další informace naleznete zde: <a href="https://www.microsoft.com/cs-cz/ai/responsible-ai" target="_blank" rel="noopener noreferrer">microsoft.com/cs-cz/ai/responsible-ai</a>.</p>
+  </section>
+
+  <hr>
+
+  <section id="aktualizace">
+    <h2>13. Aktualizace prohlášení</h2>
+    <p>Toto prohlášení může být průběžně aktualizováno. Datum poslední aktualizace bude vždy uvedeno na této stránce.</p>
+  </section>
+
 </main>
+
+<footer>
+  <div class="footer-inner">
+    <span>&copy; 2026 Lextrace LLC</span>
+    <span class="footer-sep">&middot;</span>
+    <a href="https://lextrace-online.github.io/souhlas_se_zpracovanim/" target="_blank" rel="noopener noreferrer">Souhlas se zpracováním osobních údajů</a>
+    <span class="footer-sep">&middot;</span>
+    <a href="https://lextrace-online.github.io/ochrana-osobnich-udaju/" target="_blank" rel="noopener noreferrer">Ochrana osobních údajů</a>
+    <span class="footer-sep">&middot;</span>
+    <a href="#">Cookies prohlášení</a>
+  </div>
+</footer>
+
 </body>
 </html>
+    <h2>3. Účely zpracování</h2>
+    <p>Osobní údaje zpracováváme za účelem:</p>
+    <ul>
+      <li>poskytování našich služeb a produktů,</li>
+      <li>zpřístupňování prémiového obsahu,</li>
+      <li>zpracování objednávek a komunikace se zákazníkem,</li>
+      <li>plnění zákonných povinností (např. účetní a daňové předpisy),</li>
+      <li>reklamních a marketingových účelů,</li>
+      <li>bezpečnostních účelů (ochrana systémů, prevence zneužití),</li>
+      <li>zlepšování našich služeb, analýzy a výzkumu,</li>
+      <li>vývoje nových produktů a funkcí.</li>
+    </ul>
+  </section>
